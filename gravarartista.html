@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gravar Artista</title>
+    <script type="text/javascript" src="./js/artista.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container">
+        <br />
+        <h3 style="text-align: center">Gravar Artistas</h3>
+        <br />
+        <br />
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Nome Artistico</span>
+            </div>
+            <input id="txtnome" type="text" class="form-control" placeholder="nome artistico" aria-label="Username"
+                aria-describedby="basic-addon1" />
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Nascionalidade</span>
+            </div>
+            <input id="txtnascionalidade" type="text" class="form-control" placeholder="Nascionalidade"
+                aria-label="Username" aria-describedby="basic-addon1" />
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend"><label class="input-group-text" for="inputGroupSelect01">Estilo Musical</label>
+            </div><select class="custom-select" id="cmbestilos">
+                <option value = "FORRO">FORRO</option>
+                <option value = "ROCK">ROCK</option>
+                <option value = "POP">POP</option>
+                <option value = "MPB">MPB</option>
+            </select>
+        </div>
+
+        <br /><br />
+
+        <button onclick="gravar()" type="button" class="btn btn-primary">Gravar</button>
+        <br />
+        <button onclick="window.location='usuario.html'" type="button" class="btn btn-primary">Voltar</button>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
