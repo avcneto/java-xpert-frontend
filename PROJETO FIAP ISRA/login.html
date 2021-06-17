@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Usuário</title>
+    <title>Login</title>
     <script type="text/javascript" src="js/funcoes.js"></script>
     <script src="https://kit.fontawesome.com/9850ebf0fb.js" crossorigin="anonymous"></script>
     
@@ -14,40 +14,40 @@
         <link rel="stylesheet" href="./style.css">
 </head>
 
-<body onload="exibirusuario()">
-    
+<body>
     <div class="row text-light bg-dark p-4 text-center">
         <a class="btn bordes btn-success bg-dark" href="./index.html"><i class="fas fa-arrow-left"></i></a>
-        <div class="col-12 col-sm-12">
+
+        <div class="col-12 col-sm-12 col-md-8">
             <h1>Escute agora</h1>
         </div>
-      
     </div>
     <div class="container">
+
         <br>
-        <h3 style="text-align: center;">Seja Bem Vindo</h3>
+        <h3 style="text-align: center;">Login</h3>
         <br>
         <br>
-        
-        <div class="row">
-            <div id="foto" class="col-12">
-                
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">@</span>
             </div>
+            <input id="txtemail" type="text" class="form-control" placeholder="E-mail" aria-label="Username"
+                aria-describedby="basic-addon1">
         </div>
 
-        <div class="row">
-            <div id="dados" class="col-12">
-
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">Senha</span>
             </div>
+            <input id="txtsenha" type="password" class="form-control" placeholder="Senha" aria-label="Username"
+                aria-describedby="basic-addon1">
         </div>
+        <br>
+        <br>
 
-        <button onclick="window.location='gravarartista.html'" type="button" class="btn btn-primary">
-            Gravar Artista
-        </button>
-        <br>
-        <br>
-        <button onclick="window.location='musica.html'" type="button" class="btn btn-primary">
-            Musica
+        <button onclick="logar()" type="button" class="btn bordes btn-success bg-dark">
+            Login
         </button>
 
 

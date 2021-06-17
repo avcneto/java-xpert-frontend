@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+body {
+    background:#808080;
+    font-family: 'Inter', sans-serif;
+    width: auto;
+}
+
+.navbar-brand {
+    color: black;
+}
+
+#banner-info img {
+    height: 120px;
+    border-radius: 50%; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#about-section {
+    text-align: center;
+    background-color: #24292d;
+    color:  #616d72;
+    padding-top: 50px;
+    height: 350px;
+}
+
+#about-section h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ed145b;
+}
+
+#about-section p {
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+}
+
+#about-section .paragrafo {
+    font-weight: normal;
+}
+
+#skills-section {
+    margin-top: -100px;
+    background-color: #ffffff;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #2F4F4F;
+    border-radius: 10px;
+}
+
+#skills-section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-container {
+    flex: 1 1 1;
+    text-align: center;
+    padding: 60px 25px;
+    color: #24292d;
+
+    font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+a {
+    color: #ed145b;
+    text-decoration: underline;
+    border: 1px solid yellow;
+}
+
+
+:root {
+    color: #181b1e;
+    color: #1f2225;
+    color: #ed145b;
+    color: #311a25;
+    color: #616d72;
+    color: #24292d;
+    color: #151819;
+    color: #43353b;
+    /*background: rgb(65,72,79);
+    background: linear-gradient(90deg, rgba(65,72,79,1) 0%, rgba(7,9,10,1) 100%);*/
+}
+
+#main-banner {
+    height: 70vh;
+    background-image: url(./imagens/pexels-james-wheeler-417074.jpg);
+    background-size: cover;
+    padding-top: 15vh;
+}
+
+#about-section h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#about-section p {
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+}
+
+#about-section .paragrafo {
+    font-weight: normal;
+}
+
+#skills-section {
+    margin-top: -100px;
+    background-color: #DCDCDC;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #E6E6FA;
+    border-radius: 10px;
+}
+
+
+#skills-section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-container {
+    flex: 1 1 1;
+    text-align: center;
+    padding: 60px 25px;
+    color: #24292d;
+    font-weight: bold;
+}
+
+
+h2 {
+    color: #ed145b;
+    font-weight: bold;
+}
+
+
+
+.card-text {
+    color: #151819;
+}
+
+.banner {
+    position: relative;
+    background: url(./imagens/pexels-pixabay-36717.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 200px;
+  
+   
+}
+
+.voltar {
+    background: #1d1d1d;
+    border-color: #ed145b;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.voltar:hover {
+    color: black;
+}
+
+.container {
+    margin-top: 110px !important;
+}
+
+.card {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: transform .3s;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    transition: transform .3s;
+
+}
+
+.text1 {
+    font-size: 13px;
+    color: black;
+}
+
+#jobs-section {
+    text-align: center;
+    padding-top: 50px;
+    color: #2F4F4F;
+    font-weight: bold;
+}
+
+#jobs-section h3 {
+    color:#5F9EA0;
+    margin-bottom: 30px;
+}
+
+#jobs-section p {
+    margin-bottom: 50px;
+}
+
+#jobs-section a {
+    font-weight: bold;
+    color: #5F9EA0;
+}
+
+.card-img-bottom {
+    width: 10rem;
+}
+
+.jobs-container {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+.job-box {
+    flex: 1 1 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    background-size: cover;
+    border-right: 2px solid #5F9EA0;
+    border-bottom: 2px solid#5F9EA0;
+}
+
+
+footer {
+    padding: 50px 0;
+    background-color: #24292d;
+    text-align: center;
+}
+ 
+footer h4 {
+    color: #a6bac6;
+}
+
+footer p {
+    margin-top: 25px;
+}
+
+footer form {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer input, footer textarea {
+    border: nono;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+
+
+@media(max-width: 450px) {
+    /* html - 18px   --- 1rem 18px*/
+    p, input, textarea, #navbar-list li a {
+        font-size: 1.2rem;
+    }
+    #navbar h2 {
+        display: none;
+    }
+    #navbar img {
+        top: 9px;
+    }
+
+    #navbar ul {
+        margin-top: 1.1rem;
+    }
+
+    #main-banner {
+        height: 40vh;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+    }
+
+    #banner-info {
+        width: 60%;
+    }
+
+    #banner-info p {
+        margin: 0;
+        width: auto;
+    }
+
+    #about-section {
+        padding: 2rem;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    #skills-section {
+        margin-top: -35px;
+        width: 90%;
+    }
+
+    #skills-section .container {
+        flex-direction: column;
+    }
+
+    .skills-container h3, .skills-container {
+        font-size: 1.3rem;
+    }
+
+    .skills-container {
+        padding: 25px;
+        
+
+    }
+
+    .skills-container.central {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #jobs-section h2, #jobs-section p {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .jobs-container {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .job-box {
+        margin-bottom: 2rem;
+        float: 1 1 300px;
+        }
+
+    footer {
+        padding: 50px15px ;
+    }
+    
+    footer form {
+        width: 100%;
+    }
+
+    .detail {
+        margin-top: 10px;
+        display: block;
+    }
+}
