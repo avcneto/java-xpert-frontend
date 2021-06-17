@@ -14,7 +14,7 @@ function gravar() {
   };
 
   console.log(envelope)
-  fetch("http://localhost:8080/novoartista", envelope)
+  fetch("https://java-xpert-full-stack-instancia.azurewebsites.net/novoartista", envelope)
     .then(res => res.json())
     .then(res => {
         window.alert("O artista n°: " + res.id + "foi cadastrado com sucesso!");

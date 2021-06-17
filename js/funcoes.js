@@ -29,7 +29,7 @@ function logar() {
         body : JSON.stringify(carta)
     };
 
-    fetch("http://localhost:8080/login", envelope)
+    fetch("https://java-xpert-full-stack-instancia.azurewebsites.net/login", envelope)
         .then(res => res.json())
         .then(res => {
             localStorage.setItem("ulogado", JSON.stringify(res));

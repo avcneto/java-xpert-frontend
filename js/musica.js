@@ -1,6 +1,6 @@
 function filtrar() {
   fetch(
-    "http://localhost:8080/artista/" +
+    "https://java-xpert-full-stack-instancia.azurewebsites.net/artista/" +
       document.getElementById("cmbartistas").value
   )
     .then(res => res.json())
@@ -34,7 +34,7 @@ function filtrar() {
 }
 
 function preencherartistas() {
-  fetch("http://localhost:8080/artistas")
+  fetch("https://java-xpert-full-stack-instancia.azurewebsites.net/artistas")
     .then((res) => res.json())
     .then((res) => {
       for (contador = 0; contador < res.length; contador++) {
@@ -72,7 +72,7 @@ function gravarmusica() {
     };
 
     
-  fetch("http://localhost:8080/novamusica", envelope)
+  fetch("https://java-xpert-full-stack-instancia.azurewebsites.net/novamusica", envelope)
   .then(res => res.json())
   .then(res => {
     localStorage.setItem("gravar", JSON.stringify(res));
@@ -85,11 +85,3 @@ function gravarmusica() {
   })
 
 }
-
-
-
-
-
-
-
-
