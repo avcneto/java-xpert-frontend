@@ -14,7 +14,7 @@ function enviarmensagem() {
         body: JSON.stringify(carta)
     };
 
-    fetch("http://localhost:8080/novasugestao", envelope)
+    fetch("https://java-xpert-full-stack-instancia.azurewebsites.net/novasugestao", envelope)
         .then(res => res.json())
         .then(res => {
             localStorage.setItem("ulogado", JSON.stringify(res));
