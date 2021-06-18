@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap" rel="stylesheet">
     <title>Play list</title>
     <script type="text/javascript" src="./js/mensagem.js"></script>
+    <script type="text/javascript" src="./js/funcoes.js"></script>
 
 </head>
 
@@ -41,19 +42,18 @@
                     <form action="logado.html" id="login" method="post">
                         <div class="form-group">
                             <label for="nomeUsuario">Usuário</label>
-                            <input type="text" class="form-control" placeholder="Ex: seu usuário" id="nomeUsuario"
+                            <input type="text" class="form-control" placeholder="Ex: fernando@fiap.com" id="txtemail"
                                 name="nomeUsuario" required maxlength="20" minlength="5">
                         </div>
                         <div class="form-group">
                             <label for="senhaUsuario">Senha</label>
-                            <input type="password" class="form-control" placeholder="*******" id="senhaUsuario"
+                            <input type="password" class="form-control" placeholder="*******" id="txtsenha"
                                 name="senhaUsuario" required maxlength="20" minlength="5">
                         </div>
-                        <button class="btn btn-success bg-dark" id="btnEnviar" type="submit">Enviar</button>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-success bg-dark" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-success bg-dark">Salvar</button>
+                    <button onclick="logar()" type="button" class="btn btn-success bg-dark">Entrar</button>
                     </form>
                 </div>
             </div>
